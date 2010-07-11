@@ -1,0 +1,2000 @@
+digraph untitled {
+	graph [fontname="PT Sans", concentrate=true];
+	node [fontname="PT Sans", shape=box];
+	subgraph cluster_World {
+		graph [fontsize=72,
+			label="World Music",
+			style="setlinewidth(6)"];
+		subgraph cluster_South_Pacific {
+			graph [fontsize=24,
+				label="South Pacific",
+				style="setlinewidth(3)"];
+			subgraph cluster_Slack_Key_Guitar {
+				graph [label="Slack-Key Guitar"];
+				"Sol Hoopii";
+			}
+			"Frank Ferera";
+		}
+	}
+	subgraph cluster_Spoken_Word {
+		graph [fontsize=72,
+			label="Spoken Word",
+			style="setlinewidth(6)"];
+		subgraph cluster_Observational_Humor {
+			graph [fontsize=24,
+				label="Observational Humor",
+				style="setlinewidth(3)"];
+			"Will Rogers";
+		}
+		subgraph cluster_Country_Comedy {
+			graph [fontsize=24,
+				label="Country Comedy",
+				style="setlinewidth(3)"];
+			"Jerry Clower";
+		}
+		subgraph cluster_Comedy {
+			graph [fontsize=24,
+				label=Comedy,
+				style="setlinewidth(3)"];
+			"Little Jimmy Dickens";
+			"The Revelers";
+		}
+		"Robert W. Service";
+	}
+	subgraph cluster_Jazz {
+		graph [fontsize=72,
+			label=Jazz,
+			style="setlinewidth(6)"];
+		subgraph cluster_Ragtime {
+			graph [fontsize=24,
+				label=Ragtime,
+				style="setlinewidth(3)"];
+			"Alonzo Yancey";
+		}
+		subgraph cluster_Bop {
+			graph [fontsize=24,
+				label=Bop,
+				style="setlinewidth(3)"];
+			"Billy Eckstine";
+		}
+		subgraph cluster_Boogie_Woogie {
+			graph [fontsize=24,
+				label="Boogie-Woogie",
+				style="setlinewidth(3)"];
+			"Jimmy Yancey";
+		}
+		subgraph cluster_Big_Band {
+			graph [fontsize=24,
+				label="Big Band",
+				style="setlinewidth(3)"];
+			subgraph cluster_Swing {
+				graph [label=Swing];
+				"The Mills Brothers";
+			}
+		}
+	}
+	subgraph cluster_Pop {
+		graph [fontsize=72,
+			label=Pop,
+			style="setlinewidth(6)"];
+		subgraph cluster_Tin_Pan_Alley_Pop {
+			graph [fontsize=24,
+				label="Tin Pan Alley Pop",
+				style="setlinewidth(3)"];
+			"Al Jolson";
+		}
+		subgraph cluster_Indie_Pop {
+			graph [fontsize=24,
+				label="Indie Pop",
+				style="setlinewidth(3)"];
+			"The House of Love";
+			"Walker Kong";
+			Captain;
+			"The Music Lovers";
+			"Gentleman Auction House";
+			"Shout Out Louds";
+		}
+		subgraph cluster_Adult_Contemporary {
+			graph [fontsize=24,
+				label="Adult Contemporary",
+				style="setlinewidth(3)"];
+			"Barbra Streisand";
+		}
+		subgraph cluster_Dance_Pop {
+			graph [fontsize=24,
+				label="Dance-Pop",
+				style="setlinewidth(3)"];
+			"Whitney Houston";
+			"Lady Gaga";
+		}
+		subgraph cluster_French_Pop {
+			graph [fontsize=24,
+				label="French Pop",
+				style="setlinewidth(3)"];
+			"Jacques Brel";
+		}
+		subgraph cluster_Vocal_Pop {
+			graph [fontsize=24,
+				label="Vocal Pop",
+				style="setlinewidth(3)"];
+			"The Ink Spots";
+		}
+		subgraph cluster_Traditional_Pop {
+			graph [fontsize=24,
+				label="Traditional Pop",
+				style="setlinewidth(3)"];
+			"Eddie Cantor";
+			"Nat King Cole";
+		}
+	}
+	subgraph cluster_RnB {
+		graph [fontsize=72,
+			label="R&B",
+			style="setlinewidth(6)"];
+		subgraph cluster_Disco {
+			graph [fontsize=24,
+				label=Disco,
+				style="setlinewidth(3)"];
+			"Donna Summer";
+		}
+		subgraph cluster_Soul {
+			graph [fontsize=24,
+				label=Soul,
+				style="setlinewidth(3)"];
+			subgraph cluster_Funk {
+				graph [label=Funk];
+				Rufus;
+			}
+			"Aretha Franklin";
+			"Roberta Flack";
+			"Thelma Houston";
+			"Sam Cooke";
+			"Ray Charles";
+			"Gladys Knight";
+		}
+		subgraph cluster_Early_RnB {
+			graph [fontsize=24,
+				label="Early R&B",
+				style="setlinewidth(3)"];
+			"Ruth Brown";
+		}
+	}
+	subgraph cluster_Gospel {
+		graph [fontsize=72,
+			label=Gospel,
+			style="setlinewidth(6)"];
+		subgraph cluster_Pre_War_Gospel {
+			graph [fontsize=24,
+				label="Pre-War Gospel",
+				style="setlinewidth(3)"];
+			"Arizona Dranes";
+		}
+		subgraph cluster_Black_Gospel {
+			graph [fontsize=24,
+				label="Black Gospel",
+				style="setlinewidth(3)"];
+			"Roberta Martin";
+			"Rev. Thomas A. Dorsey";
+			"Shirley Caesar";
+			"James Cleveland";
+			"Mahalia Jackson";
+			"Rev. C.L. Franklin";
+			"The Soul Stirrers";
+			"Goldia Haynes";
+			"The Roberta Martin Singers";
+			"The Caravans";
+		}
+		subgraph cluster_Contemporary_Gospel {
+			graph [fontsize=24,
+				label="Contemporary Gospel",
+				style="setlinewidth(3)"];
+			"Mavis Staples";
+		}
+		subgraph cluster_Traditional_Gospel {
+			graph [fontsize=24,
+				label="Traditional Gospel",
+				style="setlinewidth(3)"];
+			"Ernestine Washington";
+		}
+	}
+	subgraph cluster_Blues {
+		graph [fontsize=72,
+			label=Blues,
+			style="setlinewidth(6)"];
+		subgraph cluster_Piano_Blues {
+			graph [fontsize=24,
+				label="Piano Blues",
+				style="setlinewidth(3)"];
+			"Albert Ammons";
+			"Cecil Gant";
+			"Meade ‘Lux’ Lewis";
+			"Pinetop Smith";
+		}
+		subgraph cluster_Classic_Female_Blues {
+			graph [fontsize=24,
+				label="Classic Female Blues",
+				style="setlinewidth(3)"];
+			"Bessie Smith";
+			"Billie Holiday";
+		}
+		subgraph cluster_Chicago_Blues {
+			graph [fontsize=24,
+				label="Chicago Blues",
+				style="setlinewidth(3)"];
+			subgraph cluster_Acoustic_Chicago_Blues {
+				graph [label="Acoustic Chicago Blues"];
+				"Kokomo Arnold";
+			}
+			subgraph cluster_Electric_Chicago_Blues {
+				graph [label="Electric Chicago Blues"];
+				"Eddie Taylor";
+			}
+			"Muddy Waters";
+			"Robert Nighthawk";
+			"Sonny Boy Williamson";
+			"Willie Dixon";
+		}
+		subgraph cluster_Acoustic_Blues {
+			graph [fontsize=24,
+				label="Acoustic Blues",
+				style="setlinewidth(3)"];
+			"Charley Patton";
+			"Big Bill Broonzy";
+			"Mississippi John Hurt";
+			"Blind Willie McTell";
+			"Big Joe Williams";
+			"Tommy Johnson";
+			"Blind Blake";
+		}
+		subgraph cluster_Electric_Blues {
+			graph [fontsize=24,
+				label="Electric Blues",
+				style="setlinewidth(3)"];
+			subgraph cluster_Modern_Electric_Blues {
+				graph [label="Modern Electric Blues"];
+				"Hubert Sumlin";
+			}
+			"Arthur ‘Big Boy’ Crudup";
+		}
+		subgraph cluster_Delta_Blues {
+			graph [fontsize=24,
+				label="Delta Blues",
+				style="setlinewidth(3)"];
+			subgraph cluster_Electric_Delta_Blues {
+				graph [label="Electric Delta Blues"];
+				"Jessie Mae Hemphill";
+			}
+			"Mississippi Fred McDowell";
+			"Skip James";
+			"Son House";
+		}
+		subgraph cluster_Pre_War_Country_Blues {
+			graph [fontsize=24,
+				label="Pre-War Country Blues",
+				style="setlinewidth(3)"];
+			"Robert Johnson";
+		}
+		subgraph cluster_Texas_Blues {
+			graph [fontsize=24,
+				label="Texas Blues",
+				style="setlinewidth(3)"];
+			subgraph cluster_Acoustic_Texas_Blues {
+				graph [label="Acoustic Texas Blues"];
+				"Blind Lemon Jefferson";
+			}
+			"Blind Willie Johnson";
+		}
+		subgraph cluster_Acoustic_Memphis_Blues {
+			graph [fontsize=24,
+				label="Acoustic Memphis Blues",
+				style="setlinewidth(3)"];
+			"Cannon's Jug Stompers";
+		}
+	}
+	subgraph cluster_Country {
+		graph [fontsize=72,
+			label=Country,
+			style="setlinewidth(6)"];
+		subgraph cluster_Country_Pop {
+			graph [fontsize=24,
+				label="Country-Pop",
+				style="setlinewidth(3)"];
+			"Chet Atkins";
+		}
+		subgraph cluster_Alt_Country {
+			graph [fontsize=24,
+				label="Alt-Country",
+				style="setlinewidth(3)"];
+			subgraph cluster_Americana {
+				graph [label=Americana];
+				"Casey Driessen";
+				"The Hackensaw Boys";
+			}
+			"Chatham County Line";
+		}
+		subgraph cluster_Folk {
+			graph [fontsize=24,
+				label=Folk,
+				style="setlinewidth(3)"];
+			subgraph cluster_Contemporary_Folk {
+				graph [label="Contemporary Folk"];
+				"Niela Miller";
+			}
+			subgraph cluster_Traditional_Folk {
+				graph [label="Traditional Folk"];
+				subgraph cluster_Folksongs {
+					graph [label=Folksongs];
+					"Charlie Higgins";
+				}
+				"Ramblin' Jack Elliott";
+				"Woody Guthrie";
+				"Harry Smith";
+				"Joe Hill";
+			}
+			"Mississippi Sheiks";
+			"Uncle Dave Macon";
+			"Dan Tyminski";
+			"Tim Rose";
+			"Bradley Kincaid";
+		}
+		subgraph cluster_Honky_Tonk {
+			graph [fontsize=24,
+				label="Honky Tonk",
+				style="setlinewidth(3)"];
+			"Floyd Tillman";
+		}
+		subgraph cluster_Bluegrass {
+			graph [fontsize=24,
+				label=Bluegrass,
+				style="setlinewidth(3)"];
+			subgraph cluster_Traditional_Bluegrass {
+				graph [label="Traditional Bluegrass"];
+				"Jimmy Martin";
+				"Del McCoury";
+				"Jim & Jesse";
+				"Old & In the Way";
+				"Flatt & Scruggs";
+				"Snuffy Jenkins";
+				"Clarence Ashley";
+				"Doyle Lawson";
+				"Manco Sneed";
+				"Dedrick Harris"
+			}
+			subgraph cluster_Progressive_Bluegrass {
+				graph [label="Progressive Bluegrass"];
+				"The Chicken Chokers";
+				"Jerry Douglas";
+				"Ola Belle Reed";
+				"J.D. Crowe & the New South";
+				"Tony Rice";
+				"Barry Mitterhoff";
+				"David Grisman";
+				"Scott Nygaard";
+				"J.D. Crowe";
+				"Benny Martin";
+			}
+			"Sam Bush";
+			"No Speed Limit";
+			"Bering Strait";
+			"Rhonda Vincent";
+		}
+		subgraph cluster_Contemporary_Country {
+			graph [fontsize=24,
+				label="Contemporary Country",
+				style="setlinewidth(3)"];
+			subgraph cluster_Neo_Traditionalist_Country {
+				graph [label="Neo-Traditionalist Country"];
+				"Jake Owen";
+			}
+			"Marty Brown";
+			"Nickel Creek";
+			"George Strait";
+			"Roger Creager";
+			"Aaron Tippin";
+			"Mark Wills";
+			"Martina McBride";
+			"Daryle Singletary";
+			"Jamey Johnson";
+			"Clay Walker";
+			"Billy Currington";
+			"Travis Mitchell";
+			"Dean Brody";
+			"Jameson Clark";
+			"Ace in the Hole Band";
+			"Dan Evans";
+		}
+		subgraph cluster_Old_Timey {
+			graph [fontsize=24,
+				label="Old-Timey",
+				style="setlinewidth(3)"];
+			"Fiddlin' John Carson";
+			"Pee Wee King";
+			"Uncle Eck Dunford";
+			"Emmett Miller";
+			"The Carter Family";
+			"Roscoe Holomb";
+			"Hobart Smith";
+			"Grayson & Whitter";
+			"Eck Robertson";
+		}
+		subgraph cluster_Cowboy {
+			graph [fontsize=24,
+				label=Cowboy,
+				style="setlinewidth(3)"];
+			"Yodeling Slim Clark";
+		}
+		subgraph cluster_Traditional_Country {
+			graph [fontsize=24,
+				label="Traditional Country",
+				style="setlinewidth(3)"];
+			"Jimmie Rodgers";
+			"Kenny Roberts";
+			"Jimmie Davis";
+			"Patsy Montana";
+			"Rex Griffin";
+			"Hank Snow";
+			"Elton Britt";
+			"Ernest Tubb";
+			"Roy Acuff";
+			"Gene Autry";
+			"George Jones";
+			"Don Helms";
+			"Kelly Harrell";
+			"Eddy Arnold";
+			"Ernest V. Stoneman";
+			"Lefty Frizzell";
+			"Carl Smith";
+			"Red Foley";
+			"Leon Payne";
+			"Willie Nelson";
+			"The Davis Sisters";
+			"Grandpa Jones";
+			"Wade Ward";
+			"Lesley Riddle";
+			"Johnny Cash";
+		}
+		"Dedrick Harris";
+		"Kelly J. Lundy";
+		"Dick Burnett";
+		"Fiddlin' John Weaver";
+		"John Rector";
+		"Jerrod Niemann";
+		"Emmett W. Lundy";
+		"Herbert Higgins";
+		"Harvey Reynolds";
+	}
+	subgraph cluster_Rock {
+		graph [fontsize=72,
+			label=Rock,
+			style="setlinewidth(6)"];
+		subgraph cluster_Mod_Revival {
+			graph [fontsize=24,
+				label="Mod Revival",
+				style="setlinewidth(3)"];
+			"The JetSet";
+		}
+		subgraph cluster_Punk {
+			graph [fontsize=24,
+				label=Punk,
+				style="setlinewidth(3)"];
+			subgraph cluster_Punk_Revival {
+				graph [label="Punk Revival"];
+				"Dropkick Murphys";
+			}
+			subgraph cluster_Hardcore_Punk {
+				graph [label="Hardcore Punk"];
+				Bars;
+			}
+			"Dead Boys";
+		}
+		subgraph cluster_Alternative_Rock {
+			graph [fontsize=24,
+				label="Alternative Rock",
+				style="setlinewidth(3)"];
+			subgraph cluster_Indie_Rock {
+				graph [label="Indie Rock"];
+				"Eef Barzelay";
+				"Modern Skirts";
+				"The National";
+				Voxtrot;
+				"The Delgados";
+				"Make Model";
+				"The Starlight Mints";
+				"Railroad Jerk";
+			}
+			Torsson;
+			"The Beautiful South";
+		}
+		subgraph cluster_Blues_Rock {
+			graph [fontsize=24,
+				label="Blues-Rock",
+				style="setlinewidth(3)"];
+			"Hot Tuna";
+		}
+		subgraph cluster_Country_Rock {
+			graph [fontsize=24,
+				label="Country-Rock",
+				style="setlinewidth(3)"];
+			"Gibson/Miller Band";
+			"Kinky Friedman";
+			"The Ghost Rockets";
+		}
+		subgraph cluster_Prog_Rock {
+			graph [fontsize=24,
+				label="Prog-Rock",
+				style="setlinewidth(3)"];
+			"Pink Floyd";
+		}
+		subgraph cluster_Hard_Rock {
+			graph [fontsize=24,
+				label="Hard Rock",
+				style="setlinewidth(3)"];
+			subgraph cluster_Heavy_Metal {
+				graph [label="Heavy Metal"];
+				subgraph cluster_Death_Metal {
+					graph [label="Death Metal"];
+					Dethklok;
+				}
+			}
+			"David Bowie";
+			Kiss;
+		}
+		subgraph cluster_RocknRoll {
+			graph [fontsize=24,
+				label="Rock & Roll",
+				style="setlinewidth(3)"];
+			subgraph cluster_Roots {
+				graph [label=Roots];
+				subgraph cluster_American_Trad_Rock {
+					graph [label="American Trad Rock"];
+					Phish;
+				}
+				subgraph cluster_Jam_Bands {
+					graph [label="Jam Bands"];
+					"Carbon Leaf";
+				}
+			}
+			"Buddy Holly";
+			"Bob Dylan";
+			"Bill Haley & His Comets";
+			"The Pretty Things";
+			"The Kinks";
+			"The Beatles";
+			"Jerry Lee Lewis";
+			"Jody Reynolds";
+		}
+	}
+	"Donna Summer" -> "Lady Gaga";
+	Anastacia -> "Lady Gaga";
+	"Christina Aguilera" -> "Lady Gaga";
+	"Britney Spears" -> "Lady Gaga";
+	"Kylie Minogue" -> "Lady Gaga";
+	"Cyndi Lauper" -> "Lady Gaga";
+	"David Bowie" -> "Lady Gaga";
+	Queen -> "Lady Gaga";
+	Madonna -> "Lady Gaga";
+	"Barbra Streisand" -> "Donna Summer";
+	"Thelma Houston" -> "Donna Summer";
+	"Roberta Flack" -> "Donna Summer";
+	Rufus -> "Donna Summer";
+	"Mary Wells" -> "Donna Summer";
+	"Minnie Riperton" -> "Donna Summer";
+	"Irma Thomas" -> "Donna Summer";
+	Labelle -> "Donna Summer";
+	"Donny Hathaway" -> "Donna Summer";
+	Theatre -> "Donna Summer";
+	"Rev. C. L. Franklin" -> "Aretha Franklin";
+	"Nina Simone" -> "Aretha Franklin";
+	"Sister Wynona Carr" -> "Aretha Franklin";
+	"Sam Cooke" -> "Aretha Franklin";
+	"Ciara Ward" -> "Aretha Franklin";
+	"Ruth Brown" -> "Aretha Franklin";
+	"Arizona Dranes" -> "Roberta Martin";
+	"Arizona Dranes" -> "The Soul Stirrers";
+	"Arizona Dranes" -> "The Roberta Martin Singers";
+	"Arizona Dranes" -> "Goldia Haynes";
+	"Mississippi Sheiks" -> "Bessie Smith";
+	"Ma Rainey" -> "Bessie Smith";
+	"Blind Lemon Jefferson" -> "Bessie Smith";
+	"Charley Patton" -> "Mississippi Sheiks";
+	"Charley Patton" -> "Memphis Minnie";
+	"Charley Patton" -> "Almanac Singers";
+	"Charley Patton" -> "Mississippi Fred McDowell";
+	"Charley Patton" -> "Hambone Willie Newbern";
+	"Charley Patton" -> "Alan Lomax";
+	"Charley Patton" -> "Robert Wilkins";
+	"Charley Patton" -> "Jimi Hendrix";
+	"Charley Patton" -> "Johnny Shines";
+	"Charley Patton" -> "Sonny Boy Williamson";
+	"Charley Patton" -> "Willie Johnson";
+	"Charley Patton" -> "Malkum & Chris";
+	"Charley Patton" -> "Watermelon Slim";
+	"Memphis Minnie" -> "Jessie Mae Hemphill";
+	"Skip James" -> "Jessie Mae Hemphill";
+	"Mississippi John Hurt" -> "Jessie Mae Hemphill";
+	"Sonny Boy Williamson" -> "Jessie Mae Hemphill";
+	"Muddy Waters" -> "Eddie Taylor";
+	"Alberta Hunter" -> "Robert Johnson";
+	"Charlie Poole" -> "Robert Johnson";
+	"Kokomo Arnold" -> "Robert Johnson";
+	"Skip James" -> "Robert Johnson";
+	"Son House" -> "Robert Johnson";
+	"Lonnie Johnson" -> "Robert Johnson";
+	"Sallie Martin" -> "Mahalia Jackson";
+	"Willie Mae Ford Smith" -> "Mahalia Jackson";
+	"Roberta Martin" -> "Mahalia Jackson";
+	"Bessie Smith" -> "Mahalia Jackson";
+	"Aretha Franklin" -> "Roberta Flack";
+	"Diana Ross" -> "Roberta Flack";
+	"Richie Havens" -> "Roberta Flack";
+	"Joan Baez" -> "Roberta Flack";
+	"Mavis Staples" -> "Roberta Flack";
+	"Jerry Butler" -> "Roberta Flack";
+	"Lena Horne" -> "Roberta Flack";
+	"Bob Dylan" -> "Roberta Flack";
+	"Dionne Warwick" -> "Roberta Flack";
+	"Alberta Hunter" -> "Ruth Brown";
+	"Victoria Spivey" -> "Ruth Brown";
+	"Sippie Wallace" -> "Ruth Brown";
+	"Lucille Bogan" -> "Ruth Brown";
+	"Ida Cox" -> "Ruth Brown";
+	"Ella Fitzgerald" -> "Ruth Brown";
+	"Ernestine Anderson" -> "Ruth Brown";
+	"Big Maybelle" -> "Ruth Brown";
+	"Clara Ward" -> "Ruth Brown";
+	"Sarah Vaughan" -> "Ruth Brown";
+	"Billie Holiday" -> "Ruth Brown";
+	"Dinah Washington" -> "Ruth Brown";
+	"Willie Johnson" -> "Hubert Sumlin";
+	"Howlin' Wolf" -> "Hubert Sumlin";
+	"Charley Patton" -> "Kokomo Arnold";
+	"Scrapper Blackwell" -> "Kokomo Arnold";
+	"Blind Lemon Jefferson" -> "Kokomo Arnold";
+	"Big Bill Broonzy" -> "Muddy Waters";
+	"Willie Dixon" -> "Muddy Waters";
+	"Blind Willie McTell" -> "Muddy Waters";
+	"Mississippi John Hurt" -> "Muddy Waters";
+	"Mississippi Fred McDowell" -> "Muddy Waters";
+	"Big Joe Williams" -> "Muddy Waters";
+	"Robert Nighthawk" -> "Muddy Waters";
+	"Benny Goodman" -> "Billie Holiday";
+	"Monette Moore" -> "Billie Holiday";
+	"Sister Rosetta Tharpe" -> "Billie Holiday";
+	"Memphis Minnie" -> "Billie Holiday";
+	"Duke Ellington" -> "Billie Holiday";
+	"Ethel Waters" -> "Billie Holiday";
+	"Lester Young" -> "Billie Holiday";
+	"Louis Armstrong" -> "Billie Holiday";
+	"Bessie Smith" -> "Billie Holiday";
+	"W.C. Handy" -> "Big Bill Broonzy";
+	"Leroy Carr" -> "Big Bill Broonzy";
+	"Furry Lewis" -> "Big Bill Broonzy";
+	"Papa Charlie Jackson" -> "Big Bill Broonzy";
+	"Peetie Wheatstraw" -> "Big Bill Broonzy";
+	"Blind Blake" -> "Big Bill Broonzy";
+	"Blind Lemon Jefferson" -> "Big Bill Broonzy";
+	"Lonnie Johnson" -> "Big Bill Broonzy";
+	"Jimmie Rodgers" -> "Mississippi John Hurt";
+	"Barbecue Bob" -> "Blind Willie McTell";
+	"Lonnie Johnson" -> "Blind Willie McTell";
+	"Blind Willie Johnson" -> "Blind Willie McTell";
+	"Robert Johnson" -> "Robert Nighthawk";
+	"Tampa Red" -> "Robert Nighthawk";
+	"Tommy Johnson" -> "Robert Nighthawk";
+	"Houston Stackhouse" -> "Robert Nighthawk";
+	"Charley Patton" -> "Arthur ‘Big Boy’ Crudup";
+	Leadbelly -> "Arthur ‘Big Boy’ Crudup";
+	"Big Bill Broonzy" -> "Arthur ‘Big Boy’ Crudup";
+	"Jimmie Rodgers" -> "Chet Atkins";
+	"Jimmie Rodgers" -> "Jimmie Davis";
+	"Jimmie Rodgers" -> "The Maddox Brothers & Rose";
+	"Jimmie Rodgers" -> "Joan Baez";
+	"Jimmie Rodgers" -> "Van Morrison";
+	"Jimmie Rodgers" -> "Rex Griffin";
+	"Jimmie Rodgers" -> "Jim Mathus";
+	"Jimmie Rodgers" -> "Roy Kay Trio";
+	"Hobart Smith" -> "Blind Lemon Jefferson";
+	"Albert Ammons" -> "Jerry Lee Lewis";
+	"Big Joe Turner" -> "Jerry Lee Lewis";
+	"Roy Brown" -> "Jerry Lee Lewis";
+	"Roy Hall" -> "Jerry Lee Lewis";
+	"Meade ‘Lux’ Lewis" -> "Jerry Lee Lewis";
+	"James P. Johnson" -> "Jerry Lee Lewis";
+	"Floyd Cramer" -> "Jerry Lee Lewis";
+	"Cecil Gant" -> "Jerry Lee Lewis";
+	"Elmore James" -> "Jerry Lee Lewis";
+	"Ike Turner" -> "Jerry Lee Lewis";
+	"Bill Haley & His Comets" -> "Jerry Lee Lewis";
+	"Hank Williams" -> "Jerry Lee Lewis";
+	"Ray Price" -> "Jerry Lee Lewis";
+	"Ottis Redding" -> Rufus;
+	"The Isley Brothers" -> Rufus;
+	"James Brown" -> Rufus;
+	"Wilson Pickett" -> Rufus;
+	"Lee Dorsey" -> Rufus;
+	"Jerry Butler" -> Rufus;
+	"Chicago Transit Authority" -> Rufus;
+	"Stevie Wonder" -> Rufus;
+	"Sly & The Family Stone" -> Rufus;
+	"Blind Blake" -> "Blind Willie Johnson";
+	"Ida Cox" -> "Big Joe Williams";
+	"Jelly Roll Morton" -> "Big Joe Williams";
+	"Robert Johnson" -> "Big Joe Williams";
+	"Elton Britt" -> "Kenny Roberts";
+	"Yodeling Slim Clark" -> "Kenny Roberts";
+	"Blind Willie Johnson" -> "Mississippi Fred McDowell";
+	Leadbelly -> "Sonny Boy Williamson";
+	"The Ink Spots" -> "Willie Dixon";
+	"Robert Johnson" -> "Willie Dixon";
+	"Sonny Boy Williamson" -> "Willie Dixon";
+	"Little Brother Montgomery" -> "Willie Dixon";
+	"Leonard Caston" -> "Willie Dixon";
+	"Frank Sinatra" -> "Barbra Streisand";
+	"Edith Piaf" -> "Barbra Streisand";
+	"Ella Fitzgerald" -> "Barbra Streisand";
+	"Blossom Dearie" -> "Barbra Streisand";
+	"Tony Bennett" -> "Barbra Streisand";
+	"Mabel Mercer" -> "Barbra Streisand";
+	"Judy Garland" -> "Barbra Streisand";
+	"Ethel Merman" -> "Barbra Streisand";
+	"Eydie Gorme" -> "Barbra Streisand";
+	"Fanny Brice" -> "Barbra Streisand";
+	"Billie Holiday" -> "Barbra Streisand";
+	"Esther Phillips" -> "Whitney Houston";
+	"Teddy Pendergrass" -> "Whitney Houston";
+	"The Abyssinian Baptist Choir" -> "Whitney Houston";
+	"The Sweet Inspirations" -> "Whitney Houston";
+	"Donna Summer" -> "Whitney Houston";
+	"Evelyn ‘Champagne’ King" -> "Whitney Houston";
+	"Cissy Houston" -> "Whitney Houston";
+	"Tina Turner" -> "Whitney Houston";
+	"Chaka Khan" -> "Whitney Houston";
+	"Billie Holiday" -> "Sam Cooke";
+	"Willie Mae Ford Smith" -> "Sam Cooke";
+	"Sammy Davis, Jr." -> "Sam Cooke";
+	"Pilgrim Travelers" -> "Sam Cooke";
+	"Nat King Cole" -> "Sam Cooke";
+	"L.C. Cooke" -> "Sam Cooke";
+	"Marc Bolan" -> "David Bowie";
+	Love -> "David Bowie";
+	"Al Green" -> "David Bowie";
+	"Kurt Weill" -> "David Bowie";
+	"Jacques Brel" -> "David Bowie";
+	Kraftwerk -> "David Bowie";
+	"Vince Taylor" -> "David Bowie";
+	"Anthony Newley" -> "David Bowie";
+	"The Stooges" -> "David Bowie";
+	"The Pretty Things" -> "David Bowie";
+	"Scott Walker" -> "David Bowie";
+	"Syd Barett" -> "David Bowie";
+	"The Velvet Underground" -> "David Bowie";
+	"Pink Floyd" -> "David Bowie";
+	"The Spinners" -> "David Bowie";
+	"Bo Diddley" -> "Buddy Holly";
+	"Merle Travis" -> "Buddy Holly";
+	"Jerry Lee Lewis" -> "Buddy Holly";
+	"The Clovers" -> "Buddy Holly";
+	"Hank Ballard" -> "Buddy Holly";
+	"Elvis Presley" -> "Buddy Holly";
+	"Burl Ives" -> "Ramblin' Jack Elliott";
+	"Cisco Houston" -> "Ramblin' Jack Elliott";
+	"Gene Autry" -> "Ramblin' Jack Elliott";
+	"Roy Acuff" -> "Ramblin' Jack Elliott";
+	"The Sons of the Pioneers" -> "Ramblin' Jack Elliott";
+	"Woody Guthrie" -> "Ramblin' Jack Elliott";
+	"Rev. Thomas A. Dorsey" -> "The Roberta Martin Singers";
+	"Gene Autry" -> "Patsy Montana";
+	"Jimmie Davis" -> "Patsy Montana";
+	"Jelly Roll Morton" -> "Albert Ammons";
+	"Charles ‘Cow Cow’ Davenport" -> "Albert Ammons";
+	"Earl Hines" -> "Albert Ammons";
+	"Teddy Wilson" -> "Albert Ammons";
+	"Pinetop Smith" -> "Albert Ammons";
+	"Nat King Cole" -> "Cecil Gant";
+	"Rev. Thomas A. Dorsey" -> "Dorothy Love Coates";
+	"Rev. Thomas A. Dorsey" -> "Willie Mae Ford Smith";
+	"Rev. Thomas A. Dorsey" -> "The Five Blind Boys of Alabama";
+	"Rev. Thomas A. Dorsey" -> "Willie Johnson";
+	"Mississippi John Hurt" -> "Bob Dylan";
+	"Pete Seeger" -> "Bob Dylan";
+	Odetta -> "Bob Dylan";
+	"Robert Johnson" -> "Bob Dylan";
+	"Ramblin' Jack Elliott" -> "Bob Dylan";
+	"Blind Willie McTell" -> "Bob Dylan";
+	"Bill Monroe" -> "Bob Dylan";
+	"Jesse Fuller" -> "Bob Dylan";
+	Leadbelly -> "Bob Dylan";
+	"Hank Williams" -> "Bob Dylan";
+	"Little Richard" -> "Bob Dylan";
+	"Dave Van Ronk" -> "Bob Dylan";
+	"Rev. Gary Davis" -> "Bob Dylan";
+	"Elvis Presley" -> "Bob Dylan";
+	"Barbecue Bob" -> "Skip James";
+	"Bessie Smith" -> "Skip James";
+	"Sylvester Weaver" -> "Skip James";
+	"Scrapper Blackwell" -> "Skip James";
+	"Leroy Carr" -> "Skip James";
+	"Lucille Bogan" -> "Skip James";
+	"Edith Wilson" -> "Skip James";
+	"Frank Stokes" -> "Skip James";
+	"Cannon's Jug Stompers" -> "Skip James";
+	"Papa Charlie Jackson" -> "Skip James";
+	"Peg Leg Howell" -> "Skip James";
+	"Lucille Hegamin" -> "Skip James";
+	"Mamie Smith" -> "Skip James";
+	"Memphis Jug Band" -> "Skip James";
+	"Scrapper Blackwell" -> "Son House";
+	"Peg Leg Howell" -> "Son House";
+	"Robert Wilkins" -> "Son House";
+	"Furry Lewis" -> "Son House";
+	"Henry Townsend" -> "Son House";
+	"Jim Jackson" -> "Son House";
+	"Fiddlin' Doc Roberts" -> "Son House";
+	"Gus Cannon & His Jug Stompers" -> "Son House";
+	"Willie T. Brown" -> "Son House";
+	"Bill Haley & His Comets" -> "Sonny Burgess";
+	"Bill Haley & His Comets" -> "Chubby Checker";
+	"Roy Acuff" -> "Hank Snow";
+	"Ernest Tubb" -> "Hank Snow";
+	"Robert W. Service" -> "Hank Snow";
+	"Prof. Alex Bradford" -> "Shirley Caesar";
+	"Sister Wynona Carr" -> "Shirley Caesar";
+	"Ernestine Washington" -> "Shirley Caesar";
+	"The Swan Silvertones" -> "Shirley Caesar";
+	"The Davis Sisters" -> "Shirley Caesar";
+	"Clara Ward" -> "Shirley Caesar";
+	"Dorothy Love Coates" -> "Shirley Caesar";
+	"Inez Andrews" -> "Shirley Caesar";
+	"Dorothy Norwood" -> "Shirley Caesar";
+	"Marion Williams" -> "Shirley Caesar";
+	"John Lee Hooker" -> "The Pretty Things";
+	"Little Richard" -> "The Pretty Things";
+	"Little Walter" -> "The Pretty Things";
+	"Elmore James" -> "The Pretty Things";
+	"Howlin' Wolf" -> "The Pretty Things";
+	"Slim Harpo" -> "The Pretty Things";
+	"Lonnie Donegan" -> "The Pretty Things";
+	"Muddy Waters" -> "The Pretty Things";
+	"Jimmy Reed" -> "The Pretty Things";
+	"Albert King" -> "The Pretty Things";
+	"Buddy Guys" -> "The Pretty Things";
+	"Chuck Berry" -> "The Pretty Things";
+	"Bo Diddley" -> "The Pretty Things";
+	"Jimmie Rodgers" -> "Elton Britt";
+	"Charles Aznavour" -> "Jacques Brel";
+	"Edith Piaf" -> "Jacques Brel";
+	"Bob Dylan" -> "Jacques Brel";
+	"Jimmie Rodgers" -> "Ernest Tubb";
+	"The Carter Family" -> "Ernest Tubb";
+	"The Caravans" -> "James Cleveland";
+	"Ray Charles" -> "James Cleveland";
+	"Eugene Smith" -> "James Cleveland";
+	"Noah Lewis" -> "Cannon's Jug Stompers";
+	"Uncle Dave Macon" -> "Roy Acuff";
+	"Uncle Eck Dunford" -> "Roy Acuff";
+	"The Carter Family" -> "Roy Acuff";
+	"Jimmie Rodgers" -> "Roy Acuff";
+	"Fiddlin' John Carson" -> "Roy Acuff";
+	"Willie T. Brown" -> "Tommy Johnson";
+	"Charley Patton" -> "Tommy Johnson";
+	"Jimmie Rodgers" -> "Tommy Johnson";
+	"Shirley Caesar" -> "Mavis Staples";
+	"Big Maybelle" -> "Mavis Staples";
+	"Dinah Washington" -> "Mavis Staples";
+	"Sam Cooke" -> "Mavis Staples";
+	"Uncle Eck Dunford" -> "The Holy Modal Rounders";
+	"Uncle Eck Dunford" -> "Pete Seeger";
+	"Uncle Eck Dunford" -> "Kelly J. Lundy";
+	"Uncle Eck Dunford" -> "The Carolina Chocolate Drops";
+	"Uncle Dave Macon" -> "The Chicken Chokers";
+	"Uncle Dave Macon" -> "Bill Monroe";
+	"Uncle Dave Macon" -> "The Stanley Brothers";
+	"Uncle Dave Macon" -> "The Blue Sky Boys";
+	"Uncle Dave Macon" -> "The Delmore Brothers";
+	"Uncle Dave Macon" -> "Grandpa Jones";
+	"Uncle Dave Macon" -> "Doc Watson";
+	"Uncle Dave Macon" -> "Peggy Seeger";
+	"Uncle Dave Macon" -> "Marvin Gaster";
+	"Uncle Dave Macon" -> "Sam & Kirk McGee";
+	"Uncle Dave Macon" -> "The Dickel Brothers";
+	"Uncle Dave Macon" -> "Seven Foot Dilly & His Hot Pickles";
+	"Uncle Dave Macon" -> "The Four Virginians";
+	"Uncle Dave Macon" -> "Old Crow Medicine Show";
+	"Uncle Dave Macon" -> "Harry Smith";
+	"The Revelers" -> "The Mills Brothers";
+	"Ethel Waters" -> "The Mills Brothers";
+	"Louis Armstrong" -> "The Mills Brothers";
+	"The Mills Brothers" -> "The Ink Spots";
+	"Rudy Vallée" -> "The Ink Spots";
+	"Billie Holiday" -> "The Ink Spots";
+	"Bing Crosby" -> "The Ink Spots";
+	"The Carter Family" -> "Gene Autry";
+	"Will Rogers" -> "Gene Autry";
+	"Jimmie Rodgers" -> "Gene Autry";
+	"Will Rogers" -> "Bob Newhart";
+	"Will Rogers" -> "Mort Sahl";
+	"Will Rogers" -> "Woody Guthrie";
+	"Will Rogers" -> "Bob Hope";
+	"Will Rogers" -> "Jeff Foxworthy";
+	"Will Rogers" -> "Andy Griffith";
+	"Booker T. & the MG's" -> "Pink Floyd";
+	"The Yardbirds" -> "Pink Floyd";
+	"The Move" -> "Pink Floyd";
+	"The Rolling Stones" -> "Pink Floyd";
+	"The Who" -> "Pink Floyd";
+	"The Kinks" -> "Pink Floyd";
+	"Pink Anderson" -> "Pink Floyd";
+	"Jimmy Reed" -> "Pink Floyd";
+	"Muddy Waters" -> "Pink Floyd";
+	"William S. Burroughs" -> "Pink Floyd";
+	"Sun Ra" -> "Pink Floyd";
+	"Fiddlin' John Carson" -> "The Delmore Brothers";
+	"Fiddlin' John Carson" -> "The Louvin Brothers";
+	"Fiddlin' John Carson" -> "Gid Tanner";
+	"Fiddlin' John Carson" -> "Don Helms";
+	"Fiddlin' John Carson" -> "Manco Sneed";
+	"Fiddlin' John Carson" -> "Dick Burnett";
+	"George Jones" -> "Marty Brown";
+	"Johnny Kidd & the Pirates" -> "The Kinks";
+	"Slim Harpo" -> "The Kinks";
+	"The Beatles" -> "The Kinks";
+	"Little Willie John" -> "The Beatles";
+	"Eddie Cochran" -> "The Beatles";
+	"The Shadows" -> "The Beatles";
+	"The Marvelettes" -> "The Beatles";
+	"Bob Dylan" -> "The Beatles";
+	"Carl Perkins" -> "The Beatles";
+	"Arthur Alexander" -> "The Beatles";
+	"Gene Vincent" -> "The Beatles";
+	"Roy Orbison" -> "The Beatles";
+	"Larry Williams" -> "The Beatles";
+	"The Shirelles" -> "The Beatles";
+	"The Everly Brothers" -> "The Beatles";
+	"Fats Domino" -> "The Beatles";
+	"Buddy Holly" -> "The Beatles";
+	"Chuck Berry" -> "The Beatles";
+	"Smokey Robinson" -> "The Beatles";
+	"Ravi Shankar" -> "The Beatles";
+	"The Isley Brothers" -> "The Beatles";
+	"The Supremes" -> "The Beatles";
+	"Lonnie Donegan" -> "The Beatles";
+	"Dedrick Harris" -> "Manco Sneed";
+	"Little Jimmy Dickens" -> "George Jones";
+	"Chet Atkins" -> "George Jones";
+	"Eddy Arnold" -> "George Jones";
+	"Leon Payne" -> "George Jones";
+	"Ferlin Husky" -> "George Jones";
+	"Floyd Tillman" -> "George Jones";
+	"Hank Williams" -> "George Jones";
+	"Kelly Harrell" -> "Dedrick Harris";
+	"Wade Ward" -> "Dedrick Harris";
+	"Fiddlin' John Weaver" -> "Dedrick Harris";
+	"Bill Monroe" -> "Jimmy Martin";
+	"Flatt & Scruggs" -> "Jimmy Martin";
+	"Emmett W. Lundy" -> "Kelly J. Lundy";
+	"Herbert Higgins" -> "Kelly J. Lundy";
+	"John Rector" -> "Kelly J. Lundy";
+	"Charlie Higgins" -> "Kelly J. Lundy";
+	"Ernest V. Stoneman" -> "Dick Burnett";
+	"Harvey Irwin" -> "Dick Burnett";
+	"Dedrick Harris" -> "Dick Burnett";
+	"Sol Hoopii" -> "Don Helms";
+	"Jimmie Rodgers" -> "Don Helms";
+	"The Carter Family" -> "Don Helms";
+	"Frank Ferera" -> "Don Helms";
+	"Emmett Miller" -> "Don Helms";
+	"Don Helms" -> "Harvey Reynolds";
+	"Kelly Harrell" -> "The New Lost City Ramblers";
+	"Kelly Harrell" -> "Ola Belle Reed";
+	"Hank Snow" -> "Eddy Arnold";
+	"Gene Autry" -> "Eddy Arnold";
+	"The Sons of the Pioneers" -> "Eddy Arnold";
+	"Bing Crosby" -> "Eddy Arnold";
+	"Eddy Arnold" -> "George Morgan";
+	"Eddy Arnold" -> "Charley Pride";
+	"Eddy Arnold" -> "Jim Reeves";
+	"Eddy Arnold" -> "Carl Smith";
+	"Eddy Arnold" -> "Conway Twitty";
+	"Eddy Arnold" -> "Gibson/Miller Band";
+	"Eddy Arnold" -> "LeAnn Rimes";
+	"Eddy Arnold" -> "Greasy Medlin";
+	"Eddy Arnold" -> "Luke Thompson & Cecil Thompson";
+	"Tampa Red" -> "Ray Charles";
+	"Big Joe Turner" -> "Ray Charles";
+	"Count Basie" -> "Ray Charles";
+	"Piano Red" -> "Ray Charles";
+	"Nat King Cole" -> "Ray Charles";
+	"Guitar Slim" -> "Ray Charles";
+	"Charles Brown" -> "Ray Charles";
+	"Ray Charles" -> "Luther Ingram";
+	"Ray Charles" -> "Otis Redding";
+	"Ray Charles" -> Traffic;
+	"Ray Charles" -> "The Zombies";
+	"Ray Charles" -> "Arthur Blythe";
+	"Ray Charles" -> "Jim Ford";
+	"Ray Charles" -> "Judee Sill";
+	"Ray Charles" -> "Raymond Anthony Myles";
+	"Ray Charles" -> "Johnny Adams";
+	"Ray Charles" -> "Freddy Fender";
+	"Ray Charles" -> "Spooner Oldham";
+	"Ray Charles" -> "Tommy Tucker";
+	"Ray Charles" -> "Ruben Rada";
+	"Ray Charles" -> "'68 Comeback";
+	"Ray Charles" -> "The Big DooWopper";
+	"Mahalia Jackson" -> "Ernestine Washington";
+	"Eddie Cantor" -> "Bing Crosby";
+	"Eddie Cantor" -> "Judy Garland";
+	"Eddie Cantor" -> "Bob Hope";
+	"Eddie Cantor" -> "Carmen Miranda";
+	"Eddie Cantor" -> "Eddie DeLange";
+	"Ernest V. Stoneman" -> "Joseph Spence";
+	"Ernest V. Stoneman" -> "The Stonemans";
+	"Wade Ward" -> "Ralph Stanley";
+	"Bob Wills" -> "Lefty Frizzell";
+	"Carson Robison" -> "Lefty Frizzell";
+	"Spade Cooley" -> "Lefty Frizzell";
+	"Tex Ritter" -> "Lefty Frizzell";
+	"Vernon Dalhart" -> "Lefty Frizzell";
+	"Pee Wee King" -> "Lefty Frizzell";
+	"Milton Brown & His Brownies" -> "Lefty Frizzell";
+	"Jimmy Wakely" -> "Lefty Frizzell";
+	"Johnny Gimble" -> "Lefty Frizzell";
+	"Roy Acuff" -> "Lefty Frizzell";
+	"Ernest Tubb" -> "Lefty Frizzell";
+	"Lefty Frizzell" -> "John Anderson";
+	"Lefty Frizzell" -> "Boxcar Willie";
+	"Lefty Frizzell" -> "Little Jimmy Dickens";
+	"Lefty Frizzell" -> "Don Gibson";
+	"Lefty Frizzell" -> "Buck Owens";
+	"Lefty Frizzell" -> "Johnny Rodriguez";
+	"Lefty Frizzell" -> "Dwight Yoakam";
+	"Lefty Frizzell" -> "Jimmy Buffet";
+	"Lefty Frizzell" -> "Sleepy LaBeef";
+	"Lefty Frizzell" -> "Lyle Lovett";
+	"Lefty Frizzell" -> "Roger Miller";
+	"Lefty Frizzell" -> "Keith Whitley";
+	"Lefty Frizzell" -> "Melvin Endsley";
+	"Lefty Frizzell" -> "Harlan Howard";
+	"Lefty Frizzell" -> "Tibby Edwards";
+	"Bill Monroe" -> "Pee Wee King";
+	"Roy Rogers" -> "Pee Wee King";
+	"Gene Autry" -> "Pee Wee King";
+	"Pee Wee King" -> "Hank Thompson";
+	"Pee Wee King" -> "Cowboy Copas";
+	"Red Foley" -> "Carl Smith";
+	"Hank Williams" -> "Carl Smith";
+	"Carl Smith" -> "Carlene Carter";
+	"Carl Smith" -> "Ronnie Milsap";
+	"Hank Williams" -> "Gibson/Miller Band";
+	"Elvis Presley" -> "Gibson/Miller Band";
+	"Roy Rogers" -> "Red Foley";
+	"Roy Acuff" -> "Red Foley";
+	"Gene Autry" -> "Red Foley";
+	"Moon Mullican" -> "Red Foley";
+	"Jimmie F. Rodgers" -> "Red Foley";
+	"The Sons of the Pioneers" -> "Red Foley";
+	"Tex Ritter" -> "Red Foley";
+	"The Maddox Brothers & Rose" -> "Red Foley";
+	"The Delmore Brothers" -> "Red Foley";
+	"Red Foley" -> "Don Gibson";
+	"Red Foley" -> "Johnny Horton";
+	"Red Foley" -> "Ray Price";
+	"Red Foley" -> "Marty Robbins";
+	"Red Foley" -> "Hank Thompson";
+	"Red Foley" -> "Conway Twitty";
+	"Red Foley" -> "Faron Young";
+	"Red Foley" -> "Pat Boone";
+	"Red Foley" -> "Bill Haley";
+	"Red Foley" -> "Wanda Jackson";
+	"Red Foley" -> "Elvis Presley";
+	"Red Foley" -> "T. Texas Tyler";
+	"Red Foley" -> "Tommy Overstreet";
+	"Red Foley" -> "Blaze Foley";
+	"Red Foley" -> "Larry Ford";
+	"Red Foley" -> "Hank Williams, Jr.";
+	"Red Foley" -> "Merle Kilgore";
+	"Red Foley" -> "Bobby Sykes";
+	"Red Foley" -> "Dave ‘Pappy’ Hamel";
+	"Ernest Tubb" -> "Del McCoury";
+	"Jimmy Martin" -> "Del McCoury";
+	"Homer & Jethro" -> "Del McCoury";
+	"Red Rector" -> "Del McCoury";
+	"Mac Wiseman" -> "Del McCoury";
+	"Osborne Brothers" -> "Del McCoury";
+	"Paul Buskirk" -> "Del McCoury";
+	"The Stoneman Family" -> "Del McCoury";
+	"Del McCoury" -> "Sam Bush";
+	"Del McCoury" -> Phish;
+	"Del McCoury" -> "Dan Tyminski";
+	"Del McCoury" -> "J.D. Crowe & the New South";
+	"Del McCoury" -> "The Hackensaw Boys";
+	"Del McCoury" -> "Bering Strait";
+	"Del McCoury" -> "Chatham County Line";
+	"Del McCoury" -> "No Speed Limit";
+	"Leon Payne" -> "Billy Joe Shaver";
+	"George Strait" -> "Jerrod Niemann";
+	"Keith Whitley" -> "Jerrod Niemann";
+	"Paul Overstreet" -> "Jerrod Niemann";
+	"Bob Wills" -> "Floyd Tillman";
+	"Bessie Smith" -> "Floyd Tillman";
+	"Louis Armstrong" -> "Floyd Tillman";
+	"Jimmie Rodgers" -> "Floyd Tillman";
+	"Django Reinhardt" -> "Floyd Tillman";
+	"Charlie Christian" -> "Floyd Tillman";
+	"Bing Crosby" -> "Floyd Tillman";
+	"Floyd Tillman" -> "Asleep at the Wheel";
+	"Floyd Tillman" -> "Moon Mullican";
+	"Floyd Tillman" -> "Mel Tillis";
+	"Floyd Tillman" -> "Chris Isaak";
+	"Floyd Tillman" -> "Freddy Fender";
+	"Floyd Tillman" -> "John Arthur Martinez";
+	Phosphorescent -> "Willie Nelson";
+	"Bob Dylan" -> "Willie Nelson";
+	"Ray Charles" -> "Willie Nelson";
+	"Hank Snow" -> "Willie Nelson";
+	"Irving Berlin" -> "Willie Nelson";
+	"Frank Sinatra" -> "Willie Nelson";
+	"Chet Atkins" -> "Willie Nelson";
+	"Webb Pierce" -> "Willie Nelson";
+	"Johnny Bush" -> "Willie Nelson";
+	"Roger Miller" -> "Willie Nelson";
+	"Ray Price" -> "Willie Nelson";
+	"Willie Nelson" -> "Hoyt Axton";
+	"Willie Nelson" -> "The Flatlanders";
+	"Willie Nelson" -> "Jimmie Dale Gilmore";
+	"Willie Nelson" -> "Kris Kristofferson";
+	"Willie Nelson" -> "Dolly Parton";
+	"Willie Nelson" -> Cake;
+	"Willie Nelson" -> "Brian Burns";
+	"Willie Nelson" -> "Eef Barzelay";
+	"Willie Nelson" -> "Kevin Fowler";
+	"Willie Nelson" -> "Los Lonely Boys";
+	"Willie Nelson" -> "Micky & the Motorcars";
+	"Willie Nelson" -> "Jackson Taylor";
+	"Willie Nelson" -> "Keith Anderson";
+	"Willie Nelson" -> "Sarah Asher";
+	"Tony Rice" -> "Dan Tyminski";
+	"The Country Gentlemen" -> "Dan Tyminski";
+	"Ricky Skaggs" -> "Dan Tyminski";
+	"Peter Rowan" -> "Dan Tyminski";
+	"The Dillards" -> "Sam Bush";
+	"Doc Watson" -> "Sam Bush";
+	"Grateful Dead" -> "Sam Bush";
+	"The Country Gentlemen" -> "Sam Bush";
+	"Vassar Clements" -> "Sam Bush";
+	"Hazel Dickens" -> "Sam Bush";
+	"Jerry Garcia" -> "Sam Bush";
+	"Sam Bush" -> "Barry Mitterhoff";
+	"Sam Bush" -> "Nickel Creek";
+	"Sam Bush" -> "Casey Driessen";
+	"Angelic Gospel Singers" -> "The Caravans";
+	"The Charioteers" -> "The Caravans";
+	"The Davis Sisters" -> "The Caravans";
+	"The Swan Silvertones" -> "The Caravans";
+	"Rev. C.L. Franklin" -> "The Caravans";
+	"Rev. F. W. McGee" -> "The Caravans";
+	"Marion Williams" -> "The Caravans";
+	"Lucille Hegamin" -> "The Caravans";
+	"Dorothy Love Coates" -> "The Caravans";
+	"Golden Gate Quartet" -> "The Caravans";
+	"Clara Ward" -> "The Caravans";
+	"The Caravans" -> "The Mighty Clouds of Joy";
+	"The Caravans" -> "Ladysmith Black Mambazo";
+	"The Caravans" -> "Jerry Butler";
+	"The Caravans" -> "Otis Clay";
+	"The Caravans" -> "The Dells";
+	"The Caravans" -> "The Staple Singers";
+	"The Caravans" -> "Andraé Crouch";
+	"The Caravans" -> "Larry Jon Wilson";
+	"The Davis Sisters" -> "The Barrett Sisters";
+	"The Davis Sisters" -> "The Clark Sisters";
+	"The Davis Sisters" -> "The Wreckers";
+	"Aretha Franklin" -> "Gladys Knight";
+	"Johnny Otis" -> "Gladys Knight";
+	"Tammi Terrell" -> "Gladys Knight";
+	"Marvin Gaye" -> "Gladys Knight";
+	"Etta James" -> "Gladys Knight";
+	"Linda Jones" -> "Gladys Knight";
+	"Gladys Knight" -> "Oleta Adams";
+	"Gladys Knight" -> "Angela Bofill";
+	"Gladys Knight" -> "Lalah Hathaway";
+	"Gladys Knight" -> "The Jackson 5";
+	"Gladys Knight" -> "Minnie Riperton";
+	"Gladys Knight" -> "The Three Degrees";
+	"Gladys Knight" -> "Betty Wright";
+	"Gladys Knight" -> "B Angie B";
+	"Gladys Knight" -> "The Glass House";
+	"Gladys Knight" -> "Toni Braxton";
+	"Gladys Knight" -> Aaliyah;
+	"Gladys Knight" -> "Donna Angelle";
+	"Gladys Knight" -> "Melinda Doolittle";
+	"Gladys Knight" -> "Sharon Brown";
+	"Gladys Knight" -> "Joss Stone";
+	"Gladys Knight" -> Mandisa;
+	"Gladys Knight" -> "Lady Antebellum";
+	"Andy Griffith" -> "Jerry Clower";
+	"Jerry Clower" -> "Larry the Cable Guy";
+	"Alison Krauss" -> "Nickel Creek";
+	"Béla Fleck" -> "Nickel Creek";
+	"Byron Berline" -> "Nickel Creek";
+	"Stuart Duncan" -> "Nickel Creek";
+	"Tim O'Brien" -> "Nickel Creek";
+	"Tony Rice" -> "Nickel Creek";
+	"Scott Nygaard" -> "Nickel Creek";
+	Solas -> "Nickel Creek";
+	"Mark O'Connor" -> "Nickel Creek";
+	"Hot Rize" -> "Nickel Creek";
+	"Jerry Douglas" -> "Nickel Creek";
+	"Darol Anger" -> "Nickel Creek";
+	"Dolly Parton" -> "Nickel Creek";
+	"Toad the Wet Sprocket" -> "Nickel Creek";
+	"Nickel Creek" -> "The Lovell Sisters";
+	"Nickel Creek" -> "Shannon Walker";
+	"Gram Parsons" -> "Chatham County Line";
+	"The Kentucky Colonels" -> "Chatham County Line";
+	"Hot Tuna" -> "Chatham County Line";
+	"New Grass Revival" -> "Chatham County Line";
+	"Steve Earle" -> "Chatham County Line";
+	"David Bowie" -> Bauhaus;
+	"David Bowie" -> "Close Lobsters";
+	"David Bowie" -> "Thomas Dolby";
+	"David Bowie" -> "Echo & the Bunnymen";
+	"David Bowie" -> "Guns N' Roses";
+	"David Bowie" -> Texas;
+	"David Bowie" -> Pulp;
+	"David Bowie" -> "Annie Lennox";
+	"David Bowie" -> Ladytron;
+	"David Bowie" -> "The Ordinary Boys";
+	"David Bowie" -> Mika;
+	"David Bowie" -> "Neon Horse";
+	"Hot Tuna" -> Phish;
+	"King Crimson" -> Phish;
+	"Frank Zappa" -> Phish;
+	"Captain Beefheart" -> Phish;
+	Santana -> Phish;
+	"Pink Floyd" -> Phish;
+	"Béla Fleck" -> Phish;
+	"Talking Heads" -> Phish;
+	"Little Feat" -> Phish;
+	"The Allman Brothers Band" -> Phish;
+	"Grateful Dead" -> Phish;
+	Phish -> "The Ominous Seapods";
+	Phish -> "The String Cheese Incident";
+	Phish -> "Zen Tricksters";
+	Phish -> "yeP!";
+	Phish -> Yolk;
+	Phish -> "Ekoostik Hookah";
+	Phish -> "The Slip";
+	Phish -> "The Miracle Orchestra";
+	Phish -> "The Watergypsies";
+	Phish -> "Jackson Carson";
+	Phish -> "Yonder Mountain String Band";
+	Phish -> Magpu;
+	Phish -> "Mori Stylez";
+	Phish -> "Umphrey's McGee";
+	Phish -> "Tea Leaf Green";
+	Phish -> "Addison Groove Project";
+	Phish -> "The John Butler Trio";
+	Phish -> Matisyahu;
+	Phish -> "(S)he";
+	Phish -> "Liquid Village";
+	"Bradley Kincaid" -> "Grandpa Jones";
+	"Grandpa Jones" -> "Osborne Brothers";
+	"Grandpa Jones" -> "David Holt";
+	"Grandpa Jones" -> "Larry the Cable Guy";
+	"Joe Hill" -> "Woody Guthrie";
+	"The Carter Family" -> "Woody Guthrie";
+	"Woody Guthrie" -> "Johnny Horton";
+	"Woody Guthrie" -> "Larry Long";
+	"Woody Guthrie" -> "Pete Seeger";
+	"Woody Guthrie" -> "P.F. Sloan";
+	"Woody Guthrie" -> "Sweet Honey in the Rock";
+	"Woody Guthrie" -> "Harry Chapin";
+	"Woody Guthrie" -> Discharge;
+	"Woody Guthrie" -> "Eric Von Schmidt";
+	"Woody Guthrie" -> "Hank Williams";
+	"Woody Guthrie" -> "Studs Terkel";
+	"Woody Guthrie" -> "Boy Sets Fire";
+	"Woody Guthrie" -> "Dropkick Murphys";
+	"Woody Guthrie" -> "Michel Montecrossa";
+	"Woody Guthrie" -> "Clarence Bucaro";
+	"Woody Guthrie" -> "Old Crow Medicine Show";
+	"Woody Guthrie" -> "Scott H. Biram";
+	"Woody Guthrie" -> "The Wood Brothers";
+	"Willie Nelson" -> "Kinky Friedman";
+	"Waylon Jennings" -> "Kinky Friedman";
+	"Buddy Holly" -> "Kinky Friedman";
+	"Lenny Bruce" -> "Kinky Friedman";
+	"Frank Zappa" -> "Kinky Friedman";
+	"Homer & Jethro" -> "Kinky Friedman";
+	"Kinky Friedman" -> "Christine Lavin";
+	"Emmett Miller" -> "Leon Redbone";
+	"Emmett Miller" -> "Tex Williams";
+	"Emmett Miller" -> "Hank Williams";
+	"Emmett Miller" -> "Bob Wills";
+	"Josh Graves" -> "Jerry Douglas";
+	"Jerry Douglas" -> "Yonder Mountain String Band";
+	"Jerry Douglas" -> "Punch Brothers";
+	"Sol Hoopii" -> "Don Ho";
+	"Lesley Riddle" -> "The Carter Family";
+	"The Carter Family" -> "Clancy Brothers";
+	"The Carter Family" -> "Chet Atkins";
+	"The Carter Family" -> "The Delmore Brothers";
+	"The Carter Family" -> "Jim Lauderdale";
+	"The Carter Family" -> "The Maddox Brothers & Rose";
+	"The Carter Family" -> "Tammy Wynette";
+	"The Carter Family" -> "Tom Paxton";
+	"The Carter Family" -> "Bill Gaither";
+	"The Carter Family" -> "Roscoe Holcomb";
+	"The Carter Family" -> "Janis Martin";
+	"The Carter Family" -> "Jessi Colter";
+	"The Carter Family" -> "The Statler Brothers";
+	"The Carter Family" -> "David Crosby";
+	"The Louvin Brothers" -> "Jim & Jesse";
+	"The Delmore Brothers" -> "Jim & Jesse";
+	"The Stanley Brothers" -> "Jim & Jesse";
+	"Roy Acuff" -> "Jim & Jesse";
+	"Bill Monroe" -> "Jim & Jesse";
+	"The Blue Sky Boys" -> "Jim & Jesse";
+	"Jim & Jesse" -> "The Country Gentlemen";
+	"Jim & Jesse" -> "Dillard & Clark";
+	"Jim & Jesse" -> "The Dillards";
+	"Jim & Jesse" -> "Alison Krauss";
+	"Jim & Jesse" -> "Osborne Brothers";
+	"Jim & Jesse" -> "Ricky Skaggs";
+	"Jim & Jesse" -> "Paul Siebel";
+	"Jim & Jesse" -> "The Everly Brothers";
+	"Jim & Jesse" -> Freakwater;
+	"Jim & Jesse" -> "The Del McCoury Band";
+	"Jim & Jesse" -> "The Handsome Family";
+	"Bascom Lamar Lunsford" -> "Ola Belle Reed";
+	"Roy Acuff" -> "Ola Belle Reed";
+	"Frank Ferera" -> "King Bennie Nawahi";
+	"Frank Ferera" -> "Roy Smeck";
+	"J.D. Crowe & the New South" -> "Keith Whitley";
+	"Reno & Smiley" -> "J.D. Crowe & the New South";
+	"The Dixie Hummingbirds" -> "Rev. C.L. Franklin";
+	"Mahalia Jackson" -> "Rev. C.L. Franklin";
+	"Martin Luther King, Jr." -> "Rev. C.L. Franklin";
+	"Rev. Cleophus Robinson" -> "Rev. C.L. Franklin";
+	"Fisk University Jubilee Singers" -> "Rev. C.L. Franklin";
+	"Rev. C.L. Franklin" -> "Bobby ‘Blue’ Bland";
+	"Rev. C.L. Franklin" -> "Bishop Jeff Banks";
+	"Rev. C.L. Franklin" -> "Candi Staton";
+	"Rev. C.L. Franklin" -> "Eddie Floyd";
+	"Rev. C.L. Franklin" -> "Aretha Franklin";
+	"Rev. C.L. Franklin" -> "Rev. Milton Brunson";
+	"Rev. C.L. Franklin" -> "Rudy Love";
+	"Rev. C.L. Franklin" -> "Rev. Maceo Woods";
+	"Leon McAuliffe" -> "Harvey Reynolds";
+	"Little Roy Wiggins" -> "Harvey Reynolds";
+	"Jerry Byrd" -> "Harvey Reynolds";
+	"John Hartford" -> "Tony Rice";
+	"Earl Scruggs" -> "Tony Rice";
+	"Lester Flatt" -> "Tony Rice";
+	"The Kentucky Colonels" -> "Tony Rice";
+	"The Dillards" -> "Tony Rice";
+	"Doc Watson" -> "Tony Rice";
+	"Roland White" -> "Tony Rice";
+	"Clarence White" -> "Tony Rice";
+	"Tony Rice" -> "Jason Dennie";
+	"Tony Rice" -> "Donna Hughes";
+	"Charlie Poole" -> "Harry Smith";
+	"The Carter Family" -> "Harry Smith";
+	"Dock Boggs" -> "Harry Smith";
+	"Bascom Lamar Lunsford" -> "Harry Smith";
+	"Blind Lemon Jefferson" -> "Harry Smith";
+	"Cannon's Jug Stompers" -> "Harry Smith";
+	"Ralph Peer" -> "Harry Smith";
+	"Buell Kazee" -> "Harry Smith";
+	"Mississippi John Hurt" -> "Harry Smith";
+	"Harry Smith" -> "Mike Seeger";
+	"Harry Smith" -> "David Johansen";
+	"Harry Smith" -> "Henry Flynt";
+	"Harry Smith" -> "The Boggs";
+	"Willie Mae Ford Smith" -> "The Soul Stirrers";
+	"Mattie Moss Clark" -> "The Soul Stirrers";
+	"The Five Blind Boys of Alabama" -> "The Soul Stirrers";
+	"The Soul Stirrers" -> "Roy Brown";
+	"The Soul Stirrers" -> "Willie Banks";
+	"The Soul Stirrers" -> "The Charioteers";
+	"The Soul Stirrers" -> "The Dixie Hummingbirds";
+	"The Soul Stirrers" -> "The Fairfield Four";
+	"The Soul Stirrers" -> "The Highway Q.C.'s";
+	"The Soul Stirrers" -> "Sandi Patty";
+	"The Soul Stirrers" -> "The Swan Silvertones";
+	"The Soul Stirrers" -> "Dionne Warwick";
+	"The Soul Stirrers" -> "Aaron Neville";
+	"The Soul Stirrers" -> "Joe Simon";
+	"The Soul Stirrers" -> "The 5th Dimension";
+	"The Soul Stirrers" -> "John Ellison";
+	"The Soul Stirrers" -> "Lee Williams";
+	"The Soul Stirrers" -> "Juanita Bynum";
+	"Tiny Moore" -> "Barry Mitterhoff";
+	"Jacob Do Bandolim" -> "Barry Mitterhoff";
+	"The Kinks" -> "The Beautiful South";
+	"The Kinks" -> "Dire Straits";
+	"The Kinks" -> "The National";
+	"The Kinks" -> "The Nerves";
+	"The Kinks" -> "Mayo Thompson";
+	"The Kinks" -> "Strawberry Alarm Clock";
+	"The Kinks" -> "Duncan Browne";
+	"The Kinks" -> "Jason Falkner";
+	"The Kinks" -> "Will Rigby";
+	"The Kinks" -> "The JetSet";
+	"The Kinks" -> "The Benjamins";
+	"The Kinks" -> "Bronco Bullfrog";
+	"The Kinks" -> "Ben Kweller";
+	"The Kinks" -> Torsson;
+	"The Kinks" -> "A Band of Bees";
+	"The Kinks" -> "The Mice";
+	"The Kinks" -> "The Willowz";
+	"The Kinks" -> "Modern Skirts";
+	Jellyfish -> "Modern Skirts";
+	"The Posies" -> "Modern Skirts";
+	"The Zombies" -> "Modern Skirts";
+	"The Beach Boys" -> "Modern Skirts";
+	"American Music Club" -> "The National";
+	"The Afghan Whigs" -> "The National";
+	"Big Star" -> "The National";
+	"Guided by Voices" -> "The National";
+	"The Posies" -> "The National";
+	"The Smiths" -> "The National";
+	Wilco -> "The National";
+	Sloan -> "The National";
+	"The Cure" -> "The National";
+	"The Figgs" -> "The National";
+	Jawbox -> "The National";
+	"Jets to Brazil" -> "The National";
+	"The Walkabouts" -> "The National";
+	Tindersticks -> "The National";
+	"Blue Rodeo" -> "The National";
+	"The Jayhawks" -> "The National";
+	"Syd Barrett" -> "The House of Love";
+	"The Smiths" -> "The House of Love";
+	"The Left Banke" -> "The House of Love";
+	"Echo & the Bunnymen" -> "The House of Love";
+	"The Cure" -> "The House of Love";
+	"Shelleyan Orphan" -> "The House of Love";
+	"Cocteau Twins" -> "The House of Love";
+	"The Jesus and Mary Chain" -> "The House of Love";
+	"Joy Division" -> "The House of Love";
+	"The Doors" -> "The House of Love";
+	"The Soft Boys" -> "The House of Love";
+	"This Mortal Coil" -> "The House of Love";
+	"Humble Pie" -> Kiss;
+	"Jeff Beck" -> Kiss;
+	"Mott the Hoople" -> Kiss;
+	"T. Rex" -> Kiss;
+	"David Bowie" -> Kiss;
+	"Jimi Hendrix" -> Kiss;
+	"Alice Cooper" -> Kiss;
+	"Grand Funk Railroad" -> Kiss;
+	"Rod Stewart" -> Kiss;
+	Cream -> Kiss;
+	Sweet -> Kiss;
+	"New York Dolls" -> Kiss;
+	Slade -> Kiss;
+	Kiss -> "Alice in Chains";
+	Kiss -> "Dinosaur Jr.";
+	Kiss -> "Dead Boys";
+	Kiss -> "Killer Dwarfs";
+	Kiss -> Thor;
+	Kiss -> Waysted;
+	Kiss -> "Trans-Siberian Orchestra";
+	Kiss -> "Getaway Cruiser";
+	Kiss -> Godsmack;
+	Kiss -> Apache;
+	Kiss -> "Shoot Lucy";
+	Kiss -> "The Painkillers";
+	Kiss -> Hinder;
+	Kiss -> Dethklok;
+	Carcass -> Dethklok;
+	Death -> Dethklok;
+	"Spinal Tap" -> Dethklok;
+	"The Archies" -> Dethklok;
+	"The Banana Splits" -> Dethklok;
+	GWAR -> Dethklok;
+	"King Diamond" -> Dethklok;
+	"Napalm Death" -> Dethklok;
+	"Cannibal Corpse" -> Dethklok;
+	"Dimmu Borgir" -> Dethklok;
+	Nevermore -> Dethklok;
+	Metallica -> Dethklok;
+	"The Electric Eels" -> "Dead Boys";
+	"Peter Laughner" -> "Dead Boys";
+	"Marc Bolan & T. Rex" -> "Dead Boys";
+	"The Velvet Undergound" -> "Dead Boys";
+	"Modern Lovers" -> "Dead Boys";
+	MC5 -> "Dead Boys";
+	"Dead Boys" -> "Joan Jett";
+	"Dead Boys" -> "Pearl Jam";
+	"Dead Boys" -> Antiseen;
+	"Dead Boys" -> Crucifucks;
+	"Dead Boys" -> "Chaotic Discord";
+	"Dead Boys" -> "The Exploited";
+	"Dead Boys" -> "The Offspring";
+	"Dead Boys" -> "D Generation";
+	"Dead Boys" -> "Manic Hispanic";
+	"Dead Boys" -> "Jones Crusher";
+	"Dead Boys" -> "The Leftovers";
+	"Dead Boys" -> "17 Years";
+	"Dead Boys" -> "The Flaming Sideburns";
+	"Dead Boys" -> Sludgefeast;
+	"Dead Boys" -> "The Defectives";
+	"Dead Boys" -> "Pure Rubbish";
+	"Dead Boys" -> "Chargers Street Gang";
+	"Dead Boys" -> "The HollowPoints";
+	"Dead Boys" -> "The Vacancies";
+	"Dead Boys" -> Bars;
+	Entombed -> Bars;
+	"The Who" -> "The JetSet";
+	"The Small Faces" -> "The JetSet";
+	"The Banana Splits" -> "The JetSet";
+	"The Monkees" -> "The JetSet";
+	"The Jam" -> "The JetSet";
+	"Creedence Clearwater Revival" -> Torsson;
+	"Orange Juice" -> "The Beautiful South";
+	"Willie Nelson" -> "The Beautiful South";
+	"Elvis Costello" -> "The Beautiful South";
+	"The Ramones" -> "The Beautiful South";
+	"The Stylistics" -> "The Beautiful South";
+	"The Clash" -> "The Beautiful South";
+	"Robyn Hitchcock" -> "The Beautiful South";
+	"Electric Light Orchestra" -> "The Beautiful South";
+	"Fred Neil" -> "The Beautiful South";
+	"Lloyd Cole" -> "The Beautiful South";
+	"Al Green" -> "The Beautiful South";
+	"Bobbie Gentry" -> "The Beautiful South";
+	"The Zombies" -> "The Beautiful South";
+	"Burt Bacharach" -> "The Beautiful South";
+	"The Smiths" -> "The Beautiful South";
+	"The Beautiful South" -> "The Devlins";
+	"The Beautiful South" -> "The Delgados";
+	"The Beautiful South" -> Captain;
+	"The Beautiful South" -> "Walker Kong";
+	"The Beautiful South" -> "The Decemberists";
+	"The Beautiful South" -> "The Music Lovers";
+	"The Beautiful South" -> Voxtrot;
+	"The Housemartins" -> Voxtrot;
+	"The Wedding Present" -> Voxtrot;
+	"Aztec Camera" -> "Walker Kong";
+	"Prefab Sprout" -> "Walker Kong";
+	"The Go-Betweens" -> "Walker Kong";
+	"Peter Murphy" -> Captain;
+	"Joy Division" -> Captain;
+	"The Lilac Time" -> Captain;
+	"The Housemartins" -> Captain;
+	"The Trash Can Sinatras" -> "The Music Lovers";
+	"Prefab Sprout" -> "The Music Lovers";
+	"Beat Happening" -> "The Delgados";
+	"The Proclaimers" -> "The Delgados";
+	"The Soft Boys" -> "The Delgados";
+	"The Blue Nile" -> "The Delgados";
+	"The Go-Betweens" -> "The Delgados";
+	"Prefab Sprout" -> "The Delgados";
+	"The Flaming Lips" -> "The Delgados";
+	"The Delgados" -> "The Starlight Mints";
+	"The Delgados" -> "Shout Out Louds";
+	"The Delgados" -> "Make Model";
+	"Broken Social Scene" -> "Make Model";
+	"Papas Fritas" -> "The Starlight Mints";
+	"The Free Design" -> "The Starlight Mints";
+	Dambuilders -> "The Starlight Mints";
+	"The Mendoza Line" -> "The Starlight Mints";
+	"The Starlight Mints" -> "Gentleman Auction House";
+	"Of Montreal" -> "Gentleman Auction House";
+	"Sufjan Stevens" -> "Gentleman Auction House";
+	"Arcade Fire" -> "Gentleman Auction House";
+	"Echo & the Bunnymen" -> "Shout Out Louds";
+	Oasis -> "Shout Out Louds";
+	"American Music Club" -> "Shout Out Louds";
+	"The Pernice Brothers" -> "Shout Out Louds";
+	"The Cure" -> "Shout Out Louds";
+	"New Order" -> "Shout Out Louds";
+	"Roland White" -> "Rhonda Vincent";
+	"Bobby Osborne" -> "Rhonda Vincent";
+	"David Grisman" -> "Rhonda Vincent";
+	"Sam Bush" -> "Rhonda Vincent";
+	"Eddy Arnold" -> "Jody Reynolds";
+	"Hank Thompson" -> "Jody Reynolds";
+	"Screamin' Jay Hawkins" -> "Jody Reynolds";
+	"Howlin' Wolf" -> "Jody Reynolds";
+	"Scotty Moore" -> "Jody Reynolds";
+	"Jody Reynolds" -> "Bobbie Gentry";
+	"Bill Monroe" -> "Old & In the Way";
+	"Old & In the Way" -> "Béla Fleck";
+	"Old & In the Way" -> "Jim & Jennie and the Pinetops";
+	"Old & In the Way" -> "Chatham County Line";
+	"Bob Wills" -> "Flatt & Scruggs";
+	"Tommy Jarrell" -> "Flatt & Scruggs";
+	"The Delmore Brothers" -> "Flatt & Scruggs";
+	"Roscoe Holcomb" -> "Flatt & Scruggs";
+	"Hank Williams" -> "Flatt & Scruggs";
+	"The Blue Sky Boys" -> "Flatt & Scruggs";
+	"Roy Acuff" -> "Flatt & Scruggs";
+	"Snuffy Jenkins" -> "Flatt & Scruggs";
+	"Flatt & Scruggs" -> "The Kentucky Colonels";
+	"Flatt & Scruggs" -> "Nashville Grass";
+	"Flatt & Scruggs" -> "Ricky Scaggs";
+	"Flatt & Scruggs" -> "Mac Wiseman";
+	"Flatt & Scruggs" -> "Benny Martin";
+	"Flatt & Scruggs" -> "The Nitty Gritty Dirt Band";
+	"Flatt & Scruggs" -> "Paul Warren";
+	"Flatt & Scruggs" -> "Leftover Salmon";
+	"Flatt & Scruggs" -> "June Carter Cash";
+	"Flatt & Scruggs" -> "Béla Fleck";
+	"Flatt & Scruggs" -> "Porter Wagoner";
+	"Flatt & Scruggs" -> "The Del McCoury Band";
+	"Flatt & Scruggs" -> "Mike Gordon";
+	"Flatt & Scruggs" -> "The Ghost Rockets";
+	"Flatt & Scruggs" -> "Richard Gilewitz";
+	"Flatt & Scruggs" -> "Open Road";
+	"Flatt & Scruggs" -> "Luther Wright & The Wrongs";
+	"Pete Seeger" -> "Niela Miller";
+	"John Jacob Niles" -> "Niela Miller";
+	"Ola Belle Reed" -> "Niela Miller";
+	"Elizabeth Cotten" -> "Niela Miller";
+	Odetta -> "Niela Miller";
+	"Ronnie Milsap" -> "George Strait";
+	"Marty Robbins" -> "George Strait";
+	"George Jones" -> "George Strait";
+	"Frank Sinatra" -> "George Strait";
+	"Asleep at the Wheel" -> "George Strait";
+	"Vern Gosdin" -> "George Strait";
+	"Michael Martin Murphey" -> "George Strait";
+	"Merle Haggard" -> "George Strait";
+	"George Strait" -> "Brooks & Dunn";
+	"George Strait" -> "Aaron Tippin";
+	"George Strait" -> "Martina McBride";
+	"George Strait" -> "Ace in the Hole Band";
+	"George Strait" -> "Clay Walker";
+	"George Strait" -> "Daryle Singletary";
+	"George Strait" -> Lonestar;
+	"George Strait" -> "Mark Wills";
+	"George Strait" -> "Wade Bowen";
+	"George Strait" -> "Phil Vassar";
+	"George Strait" -> "Jameson Clark";
+	"George Strait" -> "Travis Mitchell";
+	"George Strait" -> "Roger Creager";
+	"George Strait" -> "Dlerks Bentley";
+	"George Strait" -> "Billy Currington";
+	"George Strait" -> "Jamey Johnson";
+	"George Strait" -> "Jake Owen";
+	"George Strait" -> "Phil Stacey";
+	"George Strait" -> "Dean Brody";
+	"Doc Watson" -> "David Grisman";
+	"Jethro Burns" -> "David Grisman";
+	"Ralph Stanley" -> "David Grisman";
+	"Jim & Jesse" -> "David Grisman";
+	"Stéphane Grappelli" -> "David Grisman";
+	"Django Reinhardt" -> "David Grisman";
+	"Peter Rowan" -> "David Grisman";
+	"David Grisman" -> "The Dixie Dregs";
+	"David Grisman" -> "Barry Mitterhoff";
+	"David Grisman" -> "Ekoostik Hookah";
+	"David Grisman" -> "Yonder Mountain String Band";
+	"David Grisman" -> "Punch Brothers";
+	"Willie Dixon" -> "Tim Rose";
+	"Elvis Presley" -> "Tim Rose";
+	"Howlin' Wolf" -> "Tim Rose";
+	"Johnny Cash" -> "Tim Rose";
+	"Tim Rose" -> "Robert Plant";
+	"Captain Beefheart" -> "Railroad Jerk";
+	"Muddy Waters" -> "Railroad Jerk";
+	"Howlin' Wolf" -> "Railroad Jerk";
+	"John Lee Hooker" -> "Railroad Jerk";
+	"Bob Dylan" -> "Railroad Jerk";
+	"Allen Ginsberg" -> "Railroad Jerk";
+	"Jack Kerouac" -> "Railroad Jerk";
+	"R.E.M." -> "Railroad Jerk";
+	"Sonic Youth" -> "Railroad Jerk";
+	"Gram Parsons" -> "Railroad Jerk";
+	Pixies -> "Railroad Jerk";
+	"AC/DC" -> "Dropkick Murphys";
+	Blitz -> "Dropkick Murphys";
+	"The Dubliners" -> "Dropkick Murphys";
+	"The Mighty Mighty Bosstones" -> "Dropkick Murphys";
+	"Negative FX" -> "Dropkick Murphys";
+	"Operation Ivy" -> "Dropkick Murphys";
+	SSD -> "Dropkick Murphys";
+	"Cock Sparrer" -> "Dropkick Murphys";
+	"D.Y.S." -> "Dropkick Murphys";
+	"Gang Green" -> "Dropkick Murphys";
+	"Social Distortion" -> "Dropkick Murphys";
+	"Circle Jerks" -> "Dropkick Murphys";
+	"Hüsker Dü" -> "Dropkick Murphys";
+	"7 Seconds" -> "Dropkick Murphys";
+	"Dag Nasty" -> "Dropkick Murphys";
+	"The Pogues" -> "Dropkick Murphys";
+	"Dropkick Murphys" -> Paramore;
+	"Dropkick Murphys" -> "The Gaslight Anthem";
+	"Lyle Lovett" -> "Roger Creager";
+	"Conway Twitty" -> "Aaron Tippin";
+	"Don Williams" -> "Aaron Tippin";
+	"Randy Travis" -> "Aaron Tippin";
+	"Willie Nelson" -> "Aaron Tippin";
+	"Aaron Tippin" -> "Rascal Flatts";
+	"Aaron Tippin" -> "Adam Gregory";
+	"Randy Travis" -> "Jake Owen";
+	"Dwight Yoakam" -> "Jake Owen";
+	"Travis Tritt" -> "Jake Owen";
+	"Clint Back" -> "Jake Owen";
+	"Keith Whitley" -> "Jake Owen";
+	"Waylon Jennings" -> "Jake Owen";
+	"Aretha Franklin" -> "Martina McBride";
+	"Dolly Parton" -> "Martina McBride";
+	"Linda Ronstadt" -> "Martina McBride";
+	"The Band" -> "Martina McBride";
+	"Sheryl Crow" -> "Martina McBride";
+	"Patty Smyth" -> "Martina McBride";
+	"Reba McEntire" -> "Martina McBride";
+	"Judy Garland" -> "Martina McBride";
+	"Garth Brooks" -> "Martina McBride";
+	"Martina McBride" -> "Matraca Berg";
+	"Martina McBride" -> "Sara Evans";
+	"Martina McBride" -> "Danni Leigh";
+	"Martina McBride" -> "Jessica Andrews";
+	"Martina McBride" -> "Meredith Edwards";
+	"Martina McBride" -> "Carmen Rasmusen";
+	"Martina McBride" -> "Big & Rich";
+	"Martina McBride" -> "Gretchen Wilson";
+	"Martina McBride" -> Sugarland;
+	"Martina McBride" -> "Whitney Duncan";
+	"Martina McBride" -> "Carrie Underwood";
+	"Martina McBride" -> "Kellie Pickler";
+	"Martina McBride" -> "Taylor Swift";
+	"Martina McBride" -> "Julianne Hough";
+	"Martina McBride" -> "Kristy Lee Cook";
+	"Martina McBride" -> "Sarah Johnson";
+	Alabama -> "Daryle Singletary";
+	"Garth Brooks" -> "Daryle Singletary";
+	"Clint Black" -> "Daryle Singletary";
+	"Foster & Lloyd" -> "Daryle Singletary";
+	"John Conlee" -> "Daryle Singletary";
+	"Conway Twitty" -> "Daryle Singletary";
+	"Randy Travis" -> "Daryle Singletary";
+	"Snuffy Jenkins" -> "Bill Monroe";
+	"Snuffy Jenkins" -> "Earl Scruggs";
+	"Snuffy Jenkins" -> "Ralph Stanley";
+	"Snuffy Jenkins" -> "Mike Seeger";
+	"Snuffy Jenkins" -> "Don Reno";
+	"Dock Boggs" -> "Roscoe Holomb";
+	"Bascom Lamar Lunsford" -> "Roscoe Holomb";
+	"Grayson & Whitter" -> "Roscoe Holomb";
+	"James Crase" -> "Roscoe Holomb";
+	"Frank Hutchison" -> "Roscoe Holomb";
+	"Bessie Smith" -> "Roscoe Holomb";
+	"Barbecue Bob" -> "Roscoe Holomb";
+	"The Carter Family" -> "Roscoe Holomb";
+	"Buell Kazee" -> "Roscoe Holomb";
+	"Roscoe Holomb" -> "Flatt & Scruggs";
+	"Roscoe Holomb" -> "Bill Monroe";
+	"Roscoe Holomb" -> "The Stanley Brothers";
+	"Roscoe Holomb" -> "Hazel Dickens";
+	"Roscoe Holomb" -> "The New Lost City Ramblers";
+	"Roscoe Holomb" -> "Mike Seeger";
+	"Roscoe Holomb" -> "The Jordanaires";
+	"Roscoe Holomb" -> "Tom Paley";
+	"Roscoe Holomb" -> "Robbie Basho";
+	"Roscoe Holomb" -> "Karen Dalton";
+	"Roscoe Holomb" -> "The Boggs";
+	"Roscoe Holomb" -> "The Sunburned Hand of the Man";
+	"Roscoe Holomb" -> "William Elliott Whitmore";
+	"Roscoe Holomb" -> "Old Crow Medicine Show";
+	"Roscoe Holomb" -> "Oakley Hall";
+	"Roscoe Holomb" -> "Death Vessel";
+	"Roscoe Holomb" -> "Valerie June";
+	"Bing Crosby" -> "Nat King Cole";
+	"Louis Armstrong" -> "Nat King Cole";
+	"Mamie Smith" -> "Nat King Cole";
+	"Fats Waller" -> "Nat King Cole";
+	"Duke Ellington" -> "Nat King Cole";
+	"Art Tatum" -> "Nat King Cole";
+	"Louis Jordan" -> "Nat King Cole";
+	"Teddy Wilson" -> "Nat King Cole";
+	"Billy Kyle" -> "Nat King Cole";
+	"Earl Hines" -> "Nat King Cole";
+	"Nat King Cole" -> "Harry Belafonte";
+	"Nat King Cole" -> "Rosemary Clooney";
+	"Nat King Cole" -> "The Dells";
+	"Nat King Cole" -> "Lionel Richie";
+	"Nat King Cole" -> "Bill Evans";
+	"Nat King Cole" -> "Astrud Gilberto";
+	"Nat King Cole" -> "John Lewis";
+	"Nat King Cole" -> "Jon Lucien";
+	"Nat King Cole" -> "Joe Williams";
+	"Nat King Cole" -> "Ronnell Bright";
+	"Nat King Cole" -> "Todd Rhodes";
+	"Nat King Cole" -> "Joni James";
+	"Nat King Cole" -> "Spanky Wilson";
+	"Nat King Cole" -> "Dave Grusin";
+	"Nat King Cole" -> "Jon Hendricks";
+	"Nat King Cole" -> "Roland Prince";
+	"Nat King Cole" -> "Billy Taylor";
+	"Nat King Cole" -> "Tsuyoshi Nagabuchi";
+	"Nat King Cole" -> "Mark McGuinn";
+	"Memphis Minnie" -> "Jimmy Yancey";
+	"Bessie Smith" -> "Jimmy Yancey";
+	"Alonzo Yancey" -> "Jimmy Yancey";
+	"Jimmy Yancey" -> "Albert Ammons";
+	"Jimmy Yancey" -> "Pete Johnson";
+	"Jimmy Yancey" -> "Mike Westbrook";
+	"Jimmy Yancey" -> "Meade ‘Lux’ Lewis";
+	"Jimmy Yancey" -> "Cripple Clarence Lofton";
+	"Jimmy Yancey" -> "Ann Rabson";
+	"Jimmy Yancey" -> "Kenny Wayne";
+	"Blind Blake" -> "Michael Bloomfield";
+	"Blind Blake" -> "Blind Boy Fuller";
+	"Blind Blake" -> "John Jackson";
+	"Blind Blake" -> "Buddy Moss";
+	"Blind Blake" -> "Joseph Spence";
+	"Blind Blake" -> "Tom Ball";
+	"Blind Blake" -> "Dave Van Ronk";
+	"Blind Blake" -> "Bull City Red";
+	"Blind Blake" -> "John Fahey";
+	"Blind Blake" -> "Terry Robb";
+	"Blind Blake" -> "John Cephas";
+	"Blind Blake" -> "Cephas & Wiggins";
+	"Blind Blake" -> "Frank Edwards";
+	"Blind Blake" -> "Lightnin' Hopkins";
+	"Blind Blake" -> "Peter Kern";
+	"Blind Blake" -> "Malkum & Chris";
+	"Clarence Ashley" -> "Hobart Smith";
+	"Bing Crosby" -> "Billy Eckstine";
+	"Budd Johnson" -> "Billy Eckstine";
+	"Cab Calloway" -> "Billy Eckstine";
+	"Hoagy Carmichael" -> "Billy Eckstine";
+	"The Mills Brothers" -> "Billy Eckstine";
+	"Duke Ellington" -> "Billy Eckstine";
+	"Jelly Roll Morton" -> "Billy Eckstine";
+	"Cole Porter" -> "Billy Eckstine";
+	"Billy Eckstine" -> "Bobby ‘Blue’ Bland";
+	"Billy Eckstine" -> "Roy Brown";
+	"Billy Eckstine" -> "Al Jarreau";
+	"Billy Eckstine" -> "Frank Sinatra";
+	"Billy Eckstine" -> "Mighty Sparrow";
+	"Billy Eckstine" -> "Johnny Ace";
+	"Billy Eckstine" -> "Jerry Butler";
+	"Billy Eckstine" -> "Andy Bey";
+	"Billy Eckstine" -> "Tony Bennett";
+	"Billy Eckstine" -> "Dizzy Gillespie";
+	"Billy Eckstine" -> "Quincy Jones";
+	"Billy Eckstine" -> "Roscoe Mitchell";
+	"Billy Eckstine" -> "Roy Hamilton";
+	"Billy Eckstine" -> "Engelbert Humperdinck";
+	"Billy Eckstine" -> "Cecil Gant";
+	"Billy Eckstine" -> "Oscar Brown, Jr.";
+	"Billy Eckstine" -> "Art Blakey";
+	"Billy Eckstine" -> "Sammy Davis, Jr.";
+	"Billy Eckstine" -> "The Blue Dahlia";
+	"Alonzo Yancey" -> "Dave Jasen";
+	"Al Jolson" -> "Fred Astaire";
+	"Al Jolson" -> "Bing Crosby";
+	"Al Jolson" -> "Eddie Fisher";
+	"Al Jolson" -> "Judy Garland";
+	"Al Jolson" -> "Annette Hanshaw";
+	"Al Jolson" -> "Gene Kelly";
+	"Al Jolson" -> "Frankie Laine";
+	"Al Jolson" -> "Dean Martin";
+	"Al Jolson" -> "Ethel Merman";
+	"Al Jolson" -> "Ethel Waters";
+	"Al Jolson" -> "Connee Boswell";
+	"Al Jolson" -> "Bob Hope";
+	"Al Jolson" -> "George Kiriakis";
+	"Al Jolson" -> "Johnny Mercer";
+	"Al Jolson" -> "Helen Morgan";
+	"Al Jolson" -> "Young @ Heart Chorus";
+	"Clarence Ashley" -> "The Holy Modal Rounders";
+	"Clarence Ashley" -> "Peggy Seeger";
+	"Clarence Ashley" -> "Pete Seeger";
+	"Clarence Ashley" -> "Ola Belle Reed";
+	"Clarence Ashley" -> "Currituck County";
+	"Clarence Ashley" -> "Abigail Washburn & The Sparrow Quartet";
+	"Garth Brooks" -> "Jamey Johnson";
+	"Clint Black" -> "Jamey Johnson";
+	"Alan Jackson" -> "Jamey Johnson";
+	Alabama -> "Jamey Johnson";
+	"Waylon Jennings" -> "Jamey Johnson";
+	"Bobby Bare" -> "Clay Walker";
+	"Randy Travis" -> "Clay Walker";
+	"Rodney Crowell" -> "Clay Walker";
+	"Kris Kristofferson" -> "Clay Walker";
+	"Clay Walker" -> "Jason Michael Carroll";
+	"Alan Jackson" -> "Billy Currington";
+	"Vince Gill" -> "Billy Currington";
+	"John Mellencamp" -> "Billy Currington";
+	"Bryan Adams" -> "Billy Currington";
+	"Clint Black" -> "Billy Currington";
+	"Toby Keith" -> "Billy Currington";
+	"Paul Rogers" -> "Travis Mitchell";
+	"Gary Allan" -> "Travis Mitchell";
+	"Pat Green" -> "Travis Mitchell";
+	"Chris Knight" -> "Travis Mitchell";
+	"Marvin Gaye" -> "Travis Mitchell";
+	"Tom T. Hall" -> "Dean Brody";
+	"Garth Brooks" -> "Dean Brody";
+	"Billy Dean" -> "Dean Brody";
+	"Don Williams" -> "Dean Brody";
+	"Keith Whitley" -> "Dean Brody";
+	"Randy Travis" -> "Dean Brody";
+	"Tim McGraw" -> "Dean Brody";
+	"Clint Black" -> "Dean Brody";
+	"Travis Tritt" -> "Jameson Clark";
+	"Hank Williams, Jr." -> "Jameson Clark";
+	"Kid Rock" -> "Jameson Clark";
+	Aerosmith -> "Jameson Clark";
+	"Randy Travis" -> "Ace in the Hole Band";
+	"Keith Urban" -> "Dan Evans";
+	".38 Special" -> "Dan Evans";
+	"Rascal Flatts" -> "Dan Evans";
+	"Kenny Chesney" -> "Dan Evans";
+	"Bryan White" -> "Dan Evans";
+	Eagles -> "Dan Evans";
+	"Tim McGraw" -> "Dan Evans";
+	"The Waterboys" -> "Carbon Leaf";
+	"The Levellers" -> "Carbon Leaf";
+	Oysterband -> "Carbon Leaf";
+	"Dave Matthews Band" -> "Carbon Leaf";
+	"Nickel Creek" -> "Carbon Leaf";
+	"John Mayer" -> "Carbon Leaf";
+	"Joe Hill" -> "Cisco Houston";
+	"Joe Hill" -> "Joe Glazer";
+	"Barbara Orbison" -> "The Ghost Rockets";
+	"The Dillards" -> "The Ghost Rockets";
+	"Buck Owens" -> "The Ghost Rockets";
+	Patrick -> "The Ghost Rockets";
+	"Brian Wilson" -> "The Ghost Rockets";
+	"Merle Haggard" -> "The Ghost Rockets";
+	"The Beatles" -> "The Ghost Rockets";
+	"Michael Nesmith" -> "The Ghost Rockets";
+	"The Marshall Tucker Band" -> "The Ghost Rockets";
+	"Roger Miller" -> "The Ghost Rockets";
+	"Van Morrison" -> "The Ghost Rockets";
+	"Gene Clark" -> "The Ghost Rockets";
+	"Dwight Yoakam" -> "The Ghost Rockets";
+	"Charlie Rich" -> "The Ghost Rockets";
+	"Buffalo Springfield" -> "The Ghost Rockets";
+	"The Monkees" -> "The Ghost Rockets";
+	"The Who" -> "The Ghost Rockets";
+	"Gram Parsons" -> "The Ghost Rockets";
+	"J.D. Crowe" -> "Doyle Lawson";
+	"Doyle Lawson" -> "Dan Tyminski";
+	"Jimmy Martin" -> "J.D. Crowe";
+	"Earl Scruggs" -> "J.D. Crowe";
+	"J.D. Crowe" -> "Ricky Skaggs";
+	"Bill Monroe" -> "Benny Martin";
+	"Benny Martin" -> "Chuck Nation";
+	"Grayson & Whitter" -> "Spencer Moore";
+	"Eck Robertson" -> "Dock Boggs";
+	"Eck Robertson" -> "Coon Creek Girks";
+	"Eck Robertson" -> "Dave Ferguson";
+	"Eck Robertson" -> "Benny Thomasson";
+	"Cowboy Copas" -> "Johnny Cash";
+	"The Swan Silverstones" -> "Johnny Cash";
+	"John Lee Hooker" -> "Johnny Cash";
+	Leadbelly -> "Johnny Cash";
+	"The Louvin Brothers" -> "Johnny Cash";
+	"Lefty Frizzell" -> "Johnny Cash";
+	"Webb Pierce" -> "Johnny Cash";
+	"Carl Smith" -> "Johnny Cash";
+	"Johnny Cash" -> "Marty Stuart";
+	"Johnny Cash" -> "Bobby Bare";
+	"Johnny Cash" -> "Garth Brooks";
+	"Johnny Cash" -> "Rodney Crowell";
+	"Johnny Cash" -> "Merle Haggard";
+	"Johnny Cash" -> "Kris Kristofferson";
+	"Johnny Cash" -> "Crazy Horse";
+	"Johnny Cash" -> "Kenny Rogers";
+	"Johnny Cash" -> "Tom Morello";
+	"Johnny Cash" -> "Rick Rubin";
+	"Johnny Cash" -> "Ricky Van Shelton";
+	"Johnny Cash" -> "The Scotch Greens";
+	"Johnny Cash" -> Lucero;
+	"Johnny Cash" -> "The Streets";
+	"Johnny Cash" -> "Minor Majority";
+	"Johnny Cash" -> "Strange Rebel Frequency";
+	"Johnny Cash" -> Heartland;
+	"Johnny Cash" -> "Cody McCarver";
+	"Johnny Cash" -> "Cobra Skulls";
+}
