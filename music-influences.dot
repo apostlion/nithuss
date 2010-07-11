@@ -1,6 +1,6 @@
 digraph untitled {
-	graph [fontname="PT Sans", concentrate=true];
-	node [fontname="PT Sans", shape=box];
+	graph [fontname="Times", concentrate=true];
+	node [fontname="Times", shape=box];
 	subgraph cluster_World {
 		graph [fontsize=72,
 			label="World Music",
@@ -1997,4 +1997,6 @@ digraph untitled {
 	"Johnny Cash" -> Heartland;
 	"Johnny Cash" -> "Cody McCarver";
 	"Johnny Cash" -> "Cobra Skulls";
+	"Cecil Gant" -> "Wille Mabon";
+	
 }
