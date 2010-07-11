@@ -1998,5 +1998,6 @@ digraph untitled {
 	"Johnny Cash" -> "Cody McCarver";
 	"Johnny Cash" -> "Cobra Skulls";
 	"Cecil Gant" -> "Wille Mabon";
+	"Willie Mabon" -> "Tennessee Ernie Ford";
 	
 }
